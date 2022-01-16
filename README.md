@@ -74,7 +74,7 @@ accepter における データ種別 の指定に基づいて SAP_API_Caller �
 caller.go の func() 毎 の 以下の箇所が、指定された API をコールするソースコードです。  
 
 ```
-func (c *SAPAPICaller) AsyncGetInspectionPlan(inspectionPlanGroup, inspectionPlan, material, plant string, accepter []string) {
+func (c *SAPAPICaller) AsyncGetInspectionPlan(inspectionPlanGroup, inspectionPlan, plant, material, billOfOperationsDesc, inspectionSpecification string, accepter []string) {
 	wg := &sync.WaitGroup{}
 	wg.Add(len(accepter))
 	for _, fn := range accepter {
@@ -86,12 +86,22 @@ func (c *SAPAPICaller) AsyncGetInspectionPlan(inspectionPlanGroup, inspectionPla
 			}()
 		case "MaterialAssignment":
 			func() {
-				c.MaterialAssignment(material, plant)
+				c.MaterialAssignment(plant, material)
 				wg.Done()
 			}()
 		case "Operation":
 			func() {
 				c.Operation(inspectionPlanGroup, inspectionPlan)
+				wg.Done()
+			}()
+		case "BillOfOperationsDesc":
+			func() {
+				c.BillOfOperationsDesc(plant, billOfOperationsDesc)
+				wg.Done()
+			}()
+		case "InspectionSpecification":
+			func() {
+				c.InspectionSpecification(plant, inspectionSpecification)
 				wg.Done()
 			}()
 		default:
@@ -102,6 +112,7 @@ func (c *SAPAPICaller) AsyncGetInspectionPlan(inspectionPlanGroup, inspectionPla
 	wg.Wait()
 }
 ```
+
 ## Output  
 本マイクロサービスでは、[golang-logging-library](https://github.com/latonaio/golang-logging-library) により、以下のようなデータがJSON形式で出力されます。  
 以下の sample.json の例は、SAP 品質検査計画 の ヘッダデータ が取得された結果の JSON の例です。  
@@ -148,5 +159,3 @@ func (c *SAPAPICaller) AsyncGetInspectionPlan(inspectionPlanGroup, inspectionPla
 }
 
 ```
-
-
