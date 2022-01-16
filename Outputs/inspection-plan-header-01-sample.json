@@ -1,0 +1,38 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-inspection-plan-reads/SAP_API_Caller/caller.go#L63",
+	"function": "sap-api-integrations-inspection-plan-reads/SAP_API_Caller.(*SAPAPICaller).Header",
+	"level": "INFO",
+	"message": [
+		{
+			"InspectionPlanGroup": "9",
+			"InspectionPlan": "1",
+			"InspectionPlanInternalVersion": "1",
+			"IsDeleted": false,
+			"BillOfOperationsDesc": "E-Bike Battery (Quality)",
+			"Plant": "1710",
+			"BillOfOperationsUsage": "5",
+			"BillOfOperationsStatus": "4",
+			"ResponsiblePlannerGroup": "",
+			"MinimumLotSizeQuantity": "0",
+			"MaximumLotSizeQuantity": "99999999",
+			"BillOfOperationsUnit": "PC",
+			"ReplacedBillOfOperations": "",
+			"IsMarkedForDeletion": false,
+			"InspPlanHasMultipleSpec": "",
+			"InspSubsetFieldCombination": "",
+			"InspectionPartialLotAssignment": "",
+			"SmplDrawingProcedure": "",
+			"SmplDrawingProcedureVersion": "",
+			"InspectionLotDynamicLevel": "",
+			"InspLotDynamicRule": "",
+			"InspExternalNumberingOfValues": "",
+			"CreationDate": "/Date(1576540800000)/",
+			"LastChangeDate": "/Date(1576540800000)/",
+			"ChangeNumber": "",
+			"ValidityStartDate": "/Date(1576540800000)/",
+			"ValidityEndDate": "/Date(253402214400000)/",
+			"ChangedDateTime": "/Date(1576582521000+0000)/"
+		}
+	],
+	"time": "2022-01-16T17:32:52.315708+09:00"
+}
