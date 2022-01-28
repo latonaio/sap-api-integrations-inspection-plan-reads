@@ -114,13 +114,13 @@ func (c *SAPAPICaller) AsyncGetInspectionPlan(inspectionPlanGroup, inspectionPla
 ```
 
 ## Output  
-本マイクロサービスでは、[golang-logging-library](https://github.com/latonaio/golang-logging-library) により、以下のようなデータがJSON形式で出力されます。  
+本マイクロサービスでは、[golang-logging-library-for-sap](https://github.com/latonaio/golang-logging-library-for-sap) により、以下のようなデータがJSON形式で出力されます。  
 以下の sample.json の例は、SAP 品質検査計画 の ヘッダデータ が取得された結果の JSON の例です。  
-以下の項目のうち、"InspectionPlanGroup" ～ "ChangedDateTime" は、/SAP_API_Output_Formatter/type.go 内 の Type Header {} による出力結果です。"cursor" ～ "time"は、golang-logging-library による 定型フォーマットの出力結果です。  
+以下の項目のうち、"InspectionPlanGroup" ～ "ChangedDateTime" は、/SAP_API_Output_Formatter/type.go 内 の Type Header {} による出力結果です。"cursor" ～ "time"は、golang-logging-library-for-sap による 定型フォーマットの出力結果です。  
 
 ```
 {
-	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-inspection-plan-reads/SAP_API_Caller/caller.go#L63",
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-inspection-plan-reads/SAP_API_Caller/caller.go#L73",
 	"function": "sap-api-integrations-inspection-plan-reads/SAP_API_Caller.(*SAPAPICaller).Header",
 	"level": "INFO",
 	"message": [
@@ -147,15 +147,15 @@ func (c *SAPAPICaller) AsyncGetInspectionPlan(inspectionPlanGroup, inspectionPla
 			"InspectionLotDynamicLevel": "",
 			"InspLotDynamicRule": "",
 			"InspExternalNumberingOfValues": "",
-			"CreationDate": "/Date(1576540800000)/",
-			"LastChangeDate": "/Date(1576540800000)/",
+			"CreationDate": "2019-12-17T09:00:00+09:00",
+			"LastChangeDate": "2019-12-17T09:00:00+09:00",
 			"ChangeNumber": "",
-			"ValidityStartDate": "/Date(1576540800000)/",
-			"ValidityEndDate": "/Date(253402214400000)/",
-			"ChangedDateTime": "/Date(1576582521000+0000)/"
+			"ValidityStartDate": "2019-12-17T09:00:00+09:00",
+			"ValidityEndDate": "9999-12-31T09:00:00+09:00",
+			"ChangedDateTime": ""
 		}
 	],
-	"time": "2022-01-16T17:32:52.315708+09:00"
+	"time": "2022-01-28T16:37:16+09:00"
 }
 
 ```

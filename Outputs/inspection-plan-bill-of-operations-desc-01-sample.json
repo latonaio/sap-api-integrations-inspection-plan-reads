@@ -1,5 +1,5 @@
 {
-	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-inspection-plan-reads/SAP_API_Caller/caller.go#L161",
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-inspection-plan-reads/SAP_API_Caller/caller.go#L166",
 	"function": "sap-api-integrations-inspection-plan-reads/SAP_API_Caller.(*SAPAPICaller).BillOfOperationsDesc",
 	"level": "INFO",
 	"message": [
@@ -26,12 +26,12 @@
 			"InspectionLotDynamicLevel": "",
 			"InspLotDynamicRule": "",
 			"InspExternalNumberingOfValues": "",
-			"CreationDate": "/Date(1576540800000)/",
-			"LastChangeDate": "/Date(1576540800000)/",
+			"CreationDate": "2019-12-17T09:00:00+09:00",
+			"LastChangeDate": "2019-12-17T09:00:00+09:00",
 			"ChangeNumber": "",
-			"ValidityStartDate": "/Date(1576540800000)/",
-			"ValidityEndDate": "/Date(253402214400000)/",
-			"ChangedDateTime": "/Date(1576582521000+0000)/"
+			"ValidityStartDate": "2019-12-17T09:00:00+09:00",
+			"ValidityEndDate": "9999-12-31T09:00:00+09:00",
+			"ChangedDateTime": ""
 		},
 		{
 			"InspectionPlanGroup": "10",
@@ -56,13 +56,13 @@
 			"InspectionLotDynamicLevel": "",
 			"InspLotDynamicRule": "",
 			"InspExternalNumberingOfValues": "",
-			"CreationDate": "/Date(1576540800000)/",
+			"CreationDate": "2019-12-17T09:00:00+09:00",
 			"LastChangeDate": "",
 			"ChangeNumber": "",
-			"ValidityStartDate": "/Date(1576540800000)/",
-			"ValidityEndDate": "/Date(253402214400000)/",
-			"ChangedDateTime": "/Date(1576582529000+0000)/"
+			"ValidityStartDate": "2019-12-17T09:00:00+09:00",
+			"ValidityEndDate": "9999-12-31T09:00:00+09:00",
+			"ChangedDateTime": ""
 		}
 	],
-	"time": "2022-01-16T17:48:58.290573+09:00"
+	"time": "2022-01-28T16:40:14+09:00"
 }

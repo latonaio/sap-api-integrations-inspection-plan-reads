@@ -11,8 +11,8 @@
 			"BOOOpInternalVersionCounter": "1",
 			"InspectionPlanInternalVersion": "1",
 			"InspectionPlan": "1",
-			"ValidityStartDate": "/Date(1571788800000)/",
-			"ValidityEndDate": "/Date(253402214400000)/",
+			"ValidityStartDate": "2019-10-23T09:00:00+09:00",
+			"ValidityEndDate": "9999-12-31T09:00:00+09:00",
 			"ChangeNumber": "",
 			"IsDeleted": false,
 			"BOOOperationPRTInternalID": "0",
@@ -107,10 +107,10 @@
 			"InspSpecInformationField2": "",
 			"InspSpecInformationField3": "",
 			"InspectionSpecificationText": "",
-			"CreationDate": "/Date(1571788800000)/",
-			"LastChangeDate": "/Date(1571788800000)/",
+			"CreationDate": "2019-10-23T09:00:00+09:00",
+			"LastChangeDate": "2019-10-23T09:00:00+09:00",
 			"BillOfOperationsVersion": "",
-			"ChangedDateTime": "/Date(1576579522000+0000)/"
+			"ChangedDateTime": ""
 		},
 		{
 			"InspectionPlanGroup": "9",
@@ -120,8 +120,8 @@
 			"BOOOpInternalVersionCounter": "1",
 			"InspectionPlanInternalVersion": "1",
 			"InspectionPlan": "1",
-			"ValidityStartDate": "/Date(1576540800000)/",
-			"ValidityEndDate": "/Date(253402214400000)/",
+			"ValidityStartDate": "2019-12-17T09:00:00+09:00",
+			"ValidityEndDate": "9999-12-31T09:00:00+09:00",
 			"ChangeNumber": "",
 			"IsDeleted": false,
 			"BOOOperationPRTInternalID": "0",
@@ -216,10 +216,10 @@
 			"InspSpecInformationField2": "",
 			"InspSpecInformationField3": "",
 			"InspectionSpecificationText": "",
-			"CreationDate": "/Date(1576540800000)/",
+			"CreationDate": "2019-12-17T09:00:00+09:00",
 			"LastChangeDate": "",
 			"BillOfOperationsVersion": "",
-			"ChangedDateTime": "/Date(1576582521000+0000)/"
+			"ChangedDateTime": ""
 		},
 		{
 			"InspectionPlanGroup": "8",
@@ -229,8 +229,8 @@
 			"BOOOpInternalVersionCounter": "1",
 			"InspectionPlanInternalVersion": "1",
 			"InspectionPlan": "1",
-			"ValidityStartDate": "/Date(1571788800000)/",
-			"ValidityEndDate": "/Date(253402214400000)/",
+			"ValidityStartDate": "2019-10-23T09:00:00+09:00",
+			"ValidityEndDate": "9999-12-31T09:00:00+09:00",
 			"ChangeNumber": "",
 			"IsDeleted": false,
 			"BOOOperationPRTInternalID": "0",
@@ -325,11 +325,11 @@
 			"InspSpecInformationField2": "",
 			"InspSpecInformationField3": "",
 			"InspectionSpecificationText": "",
-			"CreationDate": "/Date(1571788800000)/",
-			"LastChangeDate": "/Date(1571788800000)/",
+			"CreationDate": "2019-10-23T09:00:00+09:00",
+			"LastChangeDate": "2019-10-23T09:00:00+09:00",
 			"BillOfOperationsVersion": "",
-			"ChangedDateTime": "/Date(1576582535000+0000)/"
+			"ChangedDateTime": ""
 		}
 	],
-	"time": "2022-01-16T18:15:40.437101+09:00"
+	"time": "2022-01-28T16:40:55+09:00"
 }
